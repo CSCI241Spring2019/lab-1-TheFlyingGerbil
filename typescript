@@ -1,0 +1,452 @@
+Script started on Thu 11 Apr 2019 10:00:36 AM PDT
+jacksor9@CF165-10:~$ CD [K[K[Kcd CSCI241
+jacksor9@CF165-10:~/CSCI241$ ls
+jacksor9@CF165-10:~/CSCI241$ git clone https://github.com/CSCI241Spring2019/lab- 1-TheFlyingGerbil.git
+Cloning into 'lab-1-TheFlyingGerbil'...
+remote: Enumerating objects: 8, done.[K
+remote: Counting objects:  12% (1/8)   [Kremote: Counting objects:  25% (2/8)   [Kremote: Counting objects:  37% (3/8)   [Kremote: Counting objects:  50% (4/8)   [Kremote: Counting objects:  62% (5/8)   [Kremote: Counting objects:  75% (6/8)   [Kremote: Counting objects:  87% (7/8)   [Kremote: Counting objects: 100% (8/8)   [Kremote: Counting objects: 100% (8/8), done.[K
+remote: Compressing objects:  25% (1/4)   [Kremote: Compressing objects:  50% (2/4)   [Kremote: Compressing objects:  75% (3/4)   [Kremote: Compressing objects: 100% (4/4)   [Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 8 (delta 0), reused 8 (delta 0), pack-reused 0[K
+Unpacking objects:  12% (1/8)   Unpacking objects:  25% (2/8)   Unpacking objects:  37% (3/8)   Unpacking objects:  50% (4/8)   Unpacking objects:  62% (5/8)   Unpacking objects:  75% (6/8)   Unpacking objects:  87% (7/8)   Unpacking objects: 100% (8/8)   Unpacking objects: 100% (8/8), done.
+Checking connectivity... done.
+jacksor9@CF165-10:~/CSCI241$ ls
+lab-1-TheFlyingGerbil
+jacksor9@CF165-10:~/CSCI241$ cd lab-1-TH[KheFlyingGerbil
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ gitcongi[K[K[K[K[K[Kjacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git config --global user.nae[Kme :[K"Your Name Goes Here"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KRyn [K[Kan Jackson"
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git config --global user.name "Ryan Jackson"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kuser.email "jacksor9@wwu.edu
+> "
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git config --global user.email "jacksor9@wwu.edu
+"[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ [Kjacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ exit
+exit
+
+Script done on Thu 11 Apr 2019 10:07:12 AM PDT
+Script started on Thu 11 Apr 2019 10:08:27 AM PDT
+jacksor9@CF165-10:~$ touch writeup.txt
+jacksor9@CF165-10:~$ git add writeup.txt
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+jacksor9@CF165-10:~$ cd [K[K[K cd[K[K[Kcd CSCI241
+jacksor9@CF165-10:~/CSCI241$ cd lab-1-TheFlyingGerbil
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ cd lab-1-TheFlyingGerbil[14PCSCI241git add writeup.txt
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git commit -m "a[Kfirst time!"[K[K[K[K[K[K[K[K[K[K[K[KFirst Commit!:[K:[K"
+[master f32c8aa] First Commit!
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ it [K[K[Kgit push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': TheFlyingGerbil
+Password for 'https://TheFlyingGerbil@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-TheFlyingGerbil.git/'
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git pushcommit -m "First Commit!"push[K origin master
+Username for 'https://github.com': jacks     TheFlyingGwer   erbl il
+Password for 'https://TheFlyingGerbil@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 316 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-TheFlyingGerbil.git
+   1523c09..f32c8aa  master -> master
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git add writeup.txt
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ gi[K[Kgit commit 0m[K[K-m :A[K[K"Added part 1 to writeup"[1@([1@R[1@y[1@a[1@n[1@ [1@J[1@a[1@c[1@k[1@s[1@o[1@n[1@)[1@ 
+[master 7755fbc] Added part 1 (Ryan Jackson) to writeup
+ 1 file changed, 1 insertion(+)
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git star[Ktus
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': jacksor^H^H           The Flying       f Flgy  yingGerbil
+Password for 'https://TheFlyingGerbil@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 281 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-TheFlyingGerbil.git
+   f32c8aa..7755fbc  master -> master
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git pushstatus
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git add[Kding[K[K[K writeup.txt
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git add writeup.txt[9Pstatus
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git statusadd writeup.txt[9Pstatus[2Ppushstatuscommit -m "Added part 1 (Ryan Jackson) to writeup"add writeup.txt[Kcommit -m "Added part 1 (Ryan Jackson) to writeup"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"h"o"b"b"y"
+[master 3dfe4d1] Added hobby
+ 1 file changed, 1 insertion(+)
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git commit -m "Added hobby"status[K
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git statuscommit -m "Added hobby"status[Kadd writeup.txt[9Pstatus[2Ppush
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': ^[[A    TheFlyingGwe  webil     erbil
+Password for 'https://TheFlyingGerbil@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 281 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-TheFlyingGerbil.git
+   7755fbc..3dfe4d1  master -> master
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git pushstatus
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ mkdir s[Kusername.txt
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ mkgi[K[Kfile username.txt
+mkfile: command not found
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ -=[K-help mk
+--help: command not found
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ touch wir[K[Krite.[Kup.txt
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ ls
+build.gradle  src  writeup.txt
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ lstouch writeup.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txtu.txts.txte.txtr.txtn.txta.txtm.txte.txt
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ ls
+build.gradle  src  username.txt  writeup.txt
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ vi username.txt
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;23r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[23;1H"username.txt" 0L, 0C[>c[2;1H[94m~                                                                                                                                                                                                           [3;1H~                                                                                                                                                                                                           [4;1H~                                                                                                                                                                                                           [5;1H~                                                                                                                                                                                                           [6;1H~                                                                                                                                                                                                           [7;1H~                                                                                                                                                                                                           [8;1H~                                                                                                                                                                                                           [9;1H~                                                                                                                                                                                                           [10;1H~                                                                                                                                                                                                           [11;1H~                                                                                                                                                                                                           [12;1H~                                                                                                                                                                                                           [13;1H~                                                                                                                                                                                                           [14;1H~                                                                                                                                                                                                           [15;1H~                                                                                                                                                                                                           [16;1H~                                                                                                                                                                                                           [17;1H~                                                                                                                                                                                                           [18;1H~                                                                                                                                                                                                           [19;1H~                                                                                                                                                                                                           [20;1H~                                                                                                                                                                                                           [21;1H~                                                                                                                                                                                                           [22;1H~                                                                                                                                                                                                           [m[23;187H0,0-1[9CAll]2;username.txt (~/CSCI241/lab-1-TheFlyingGerbil) - VIM]1;username.txt[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[2;1H[94m~                                                                                                                                                                                                           [3;1H~                                                                                                                                                                                                           [4;1H~                                                                                                                                                                                                           [5;1H~                                                                                                                                                                                                           [6;1H~                                                                                                                                                                                                           [7;1H~                                                                                                                                                                                                           [8;1H~                                                                                                                                                                                                           [9;1H~                                                                                                                                                                                                           [10;1H~                                                                                                                                                                                                           [11;1H~                                                                                                                                                                                                           [12;1H~                                                                                                                                                                                                           [13;1H~                                                                                                                                                                                                           [14;1H~                                                                                                                                                                                                           [15;1H~                                                                                                                                                                                                           [16;1H~                                                                                                                                                                                                           [17;1H~                                                                                                                                                                                                           [18;1H~                                                                                                                                                                                                           [19;1H~                                                                                                                                                                                                           [20;1H~                                                                                                                                                                                                           [21;1H~                                                                                                                                                                                                           [22;1H~                                                                                                                                                                                                           [m[23;187H0,0-1[9CAll"username.txt" 0L, 0C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[23;1H[1m-- INSERT --[m[23;13H[K[23;187H0,1[11CAll[1;1H[?12l[?25h[?25lR[23;187H1,2]2;username.txt + (~/CSCI241/lab-1-TheFlyingGerbil) - VIM]1;username.txt[1;2H[?12l[?25h[?25ly[23;189H3[1;3H[?12l[?25h[?25la[23;189H4[1;4H[?12l[?25h[?25ln[23;189H5[1;5H[?12l[?25h[?25l[23;189H6[1;6H[?12l[?25h[?25lJ[23;189H7[1;7H[?12l[?25h[?25la[23;189H8[1;8H[?12l[?25h[?25lc[23;189H9[1;9H[?12l[?25h[?25lk[23;189H10[1;10H[?12l[?25h[?25ls[23;190H1[1;11H[?12l[?25h[?25lo[23;190H2[1;12H[?12l[?25h[?25ln[23;190H3[1;13H[?12l[?25h[?25l,[23;190H4[1;14H[?12l[?25h[?25l[23;190H5[1;15H[?12l[?25h[?25lj[23;190H6[1;16H[?12l[?25h[?25la[23;190H7[1;17H[?12l[?25h[?25lc[23;190H8[1;18H[?12l[?25h[?25lk[23;190H9[1;19H[?12l[?25h[?25ls[23;189H20[1;20H[?12l[?25h[?25lo[23;190H1[1;21H[?12l[?25h[?25lr[23;190H2[1;22H[?12l[?25h[?25l9[23;190H3[1;23H[?12l[?25h[?25l,[23;190H4[1;24H[?12l[?25h[?25l[23;190H5[1;25H[?12l[?25h[?25l[23;190H4[1;24H[?12l[?25h[?25l[23;190H3[1;23H[?12l[?25h[?25l[23;190H2[1;22H[?12l[?25h[?25l[23;190H1[1;21H[?12l[?25h[?25l[23;190H0[1;20H[?12l[?25h[?25l[23;189H19[1;19H[?12l[?25h[?25l[23;190H8[1;18H[?12l[?25h[?25l[23;190H7[1;17H[?12l[?25h[?25l[23;190H6[1;16H[?12l[?25h[?25l[23;190H5[1;15H[?12l[?25h[?25ljacksor9,[1;23H[K[23;190H4[1;14H[?12l[?25h[?25l[23;190H5[1;15H[?12l[?25h[?25l[23;190H6[1;16H[?12l[?25h[?25l[23;190H7[1;17H[?12l[?25h[?25l[23;190H8[1;18H[?12l[?25h[?25l[23;190H9[1;19H[?12l[?25h[?25l[23;189H20[1;20H[?12l[?25h[?25l[23;190H1[1;21H[?12l[?25h[?25l[23;190H2[1;22H[?12l[?25h[?25l[23;190H3[1;23H[?12l[?25h[?25lT[23;190H4[1;24H[?12l[?25h[?25lh[23;190H5[1;25H[?12l[?25h[?25le[23;190H6[1;26H[?12l[?25h[?25lF[23;190H7[1;27H[?12l[?25h[?25lL[23;190H8[1;28H[?12l[?25h[?25ly[23;190H9[1;29H[?12l[?25h[?25li[23;189H30[1;30H[?12l[?25h[?25ln[23;190H1[1;31H[?12l[?25h[?25lg[23;190H2[1;32H[?12l[?25h[?25l[1;31H[K[23;190H1[1;31H[?12l[?25h[?25l[1;30H[K[23;190H0[1;30H[?12l[?25h[?25l[1;29H[K[23;189H29[1;29H[?12l[?25h[?25l[1;28H[K[23;190H8[1;28H[?12l[?25h[?25l[1;27H[K[23;190H7[1;27H[?12l[?25h[?25ll[23;190H8[1;28H[?12l[?25h[?25ly[23;190H9[1;29H[?12l[?25h[?25li[23;189H30[1;30H[?12l[?25h[?25ln[23;190H1[1;31H[?12l[?25h[?25lg[23;190H2[1;32H[?12l[?25h[?25lG[23;190H3[1;33H[?12l[?25h[?25le[23;190H4[1;34H[?12l[?25h[?25lr[23;190H5[1;35H[?12l[?25h[?25lb[23;190H6[1;36H[?12l[?25h[?25li[23;190H7[1;37H[?12l[?25h[?25ll[23;190H8[1;38H[?12l[?25h[23;1H[K[1;37H[?25l[23;187H1,37[10CAll[1;37H[?12l[?25h[?25l[23;187H[K[23;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"username.txt" 1L, 38C written]2;Terminal]1;Terminal
+[?1l>[?12l[?25h[?1049ljacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ cat username.txt
+Ryan Jackson,jacksor9,TheFlyingGerbil
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git help
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Forward-port local commits to the updated upstream head
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git check[Kkout -b question [K3
+Switched to a new branch 'question3'
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ vi writup.[K[K[Keup.txt
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;23r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[23;1H"writeup.txt" 2L, 28C[>c[1;1HRyan Jackson
+Hobby: drawing
+[94m~                                                                                                                                                                                                           [4;1H~                                                                                                                                                                                                           [5;1H~                                                                                                                                                                                                           [6;1H~                                                                                                                                                                                                           [7;1H~                                                                                                                                                                                                           [8;1H~                                                                                                                                                                                                           [9;1H~                                                                                                                                                                                                           [10;1H~                                                                                                                                                                                                           [11;1H~                                                                                                                                                                                                           [12;1H~                                                                                                                                                                                                           [13;1H~                                                                                                                                                                                                           [14;1H~                                                                                                                                                                                                           [15;1H~                                                                                                                                                                                                           [16;1H~                                                                                                                                                                                                           [17;1H~                                                                                                                                                                                                           [18;1H~                                                                                                                                                                                                           [19;1H~                                                                                                                                                                                                           [20;1H~                                                                                                                                                                                                           [21;1H~                                                                                                                                                                                                           [22;1H~                                                                                                                                                                                                           [m[23;187H1,1[11CAll]2;writeup.txt (~/CSCI241/lab-1-TheFlyingGerbil) - VIM]1;writeup.txt[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HRyan Jackson
+Hobby: drawing
+[94m~                                                                                                                                                                                                           [4;1H~                                                                                                                                                                                                           [5;1H~                                                                                                                                                                                                           [6;1H~                                                                                                                                                                                                           [7;1H~                                                                                                                                                                                                           [8;1H~                                                                                                                                                                                                           [9;1H~                                                                                                                                                                                                           [10;1H~                                                                                                                                                                                                           [11;1H~                                                                                                                                                                                                           [12;1H~                                                                                                                                                                                                           [13;1H~                                                                                                                                                                                                           [14;1H~                                                                                                                                                                                                           [15;1H~                                                                                                                                                                                                           [16;1H~                                                                                                                                                                                                           [17;1H~                                                                                                                                                                                                           [18;1H~                                                                                                                                                                                                           [19;1H~                                                                                                                                                                                                           [20;1H~                                                                                                                                                                                                           [21;1H~                                                                                                                                                                                                           [22;1H~                                                                                                                                                                                                           [m[23;187H1,1[11CAll"writeup.txt" 2L, 28C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[23;1H[1m-- INSERT --[m[23;13H[K[23;187H1,1[11CAll[1;1H[?12l[?25h[?25l[23;187H2[2;1H[?12l[?25h[?25l[23;189H2[2;2H[?12l[?25h[?25l[23;189H3[2;3H[?12l[?25h[?25l[23;189H4[2;4H[?12l[?25h[?25l[23;189H5[2;5H[?12l[?25h[?25l[23;189H6[2;6H[?12l[?25h[?25l[23;189H7[2;7H[?12l[?25h[?25l[23;189H8[2;8H[?12l[?25h[?25l[23;189H9[2;9H[?12l[?25h[?25l[23;189H10[2;10H[?12l[?25h[?25l[23;190H1[2;11H[?12l[?25h[?25l[23;190H2[2;12H[?12l[?25h[?25l[23;190H3[2;13H[?12l[?25h[?25l[23;190H4[2;14H[?12l[?25h[?25l[23;190H5[2;15H[?12l[?25h[?25l[3;1H[K[23;187H3,1 ]2;writeup.txt + (~/CSCI241/lab-1-TheFlyingGerbil) - VIM]1;writeup.txt[3;1H[?12l[?25h[?25lF[23;189H2[3;2H[?12l[?25h[?25l[3;1H[K[23;189H1[3;1H[?12l[?25h[?25lf[23;189H2[3;2H[?12l[?25h[?25la[23;189H3[3;3H[?12l[?25h[?25lv[23;189H4[3;4H[?12l[?25h[?25l[3;3H[K[23;189H3[3;3H[?12l[?25h[?25l[3;2H[K[23;189H2[3;2H[?12l[?25h[?25l[3;1H[K[23;189H1[3;1H[?12l[?25h[?25lF[23;189H2[3;2H[?12l[?25h[?25la[23;189H3[3;3H[?12l[?25h[?25lv[23;189H4[3;4H[?12l[?25h[?25lo[23;189H5[3;5H[?12l[?25h[?25li[23;189H6[3;6H[?12l[?25h[?25l[3;5H[K[23;189H5[3;5H[?12l[?25h[?25lr[23;189H6[3;6H[?12l[?25h[?25li[23;189H7[3;7H[?12l[?25h[?25lt[23;189H8[3;8H[?12l[?25h[?25le[23;189H9[3;9H[?12l[?25h[?25l[23;189H10[3;10H[?12l[?25h[?25lS[23;190H1[3;11H[?12l[?25h[?25lo[23;190H2[3;12H[?12l[?25h[?25ln[23;190H3[3;13H[?12l[?25h[?25lg[23;190H4[3;14H[?12l[?25h[?25l:[23;190H5[3;15H[?12l[?25h[?25l[23;190H6[3;16H[?12l[?25h[?25lC[23;190H7[3;17H[?12l[?25h[?25lo[23;190H8[3;18H[?12l[?25h[?25ll[23;190H9[3;19H[?12l[?25h[?25lo[23;189H20[3;20H[?12l[?25h[?25lr[23;190H1[3;21H[?12l[?25h[?25ls[23;190H2[3;22H[?12l[?25h[?25l[23;190H3[3;23H[?12l[?25h[?25lb[23;190H4[3;24H[?12l[?25h[?25ly[23;190H5[3;25H[?12l[?25h[?25l[23;190H6[3;26H[?12l[?25h[?25lC[23;190H7[3;27H[?12l[?25h[?25lo[23;190H8[3;28H[?12l[?25h[?25lh[23;190H9[3;29H[?12l[?25h[?25le[23;189H30[3;30H[?12l[?25h[?25le[23;190H1[3;31H[?12l[?25h[?25ld[23;190H2[3;32H[?12l[?25h[?25l[23;190H3[3;33H[?12l[?25h[?25la[23;190H4[3;34H[?12l[?25h[?25ln[23;190H5[3;35H[?12l[?25h[?25ld[23;190H6[3;36H[?12l[?25h[?25l[23;190H7[3;37H[?12l[?25h[?25lC[23;190H8[3;38H[?12l[?25h[?25la[23;190H9[3;39H[?12l[?25h[?25lm[23;189H40[3;40H[?12l[?25h[?25lb[23;190H1[3;41H[?12l[?25h[?25lr[23;190H2[3;42H[?12l[?25h[?25li[23;190H3[3;43H[?12l[?25h[?25la[23;190H4[3;44H[?12l[?25h[23;1H[K[3;43H[?25l[23;187H3,43[10CAll[3;43H[?12l[?25h[?25l[23;187H[K[23;1H:[?12l[?25he[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[23;3H[K[23;3H[?12l[?25h[?25l[23;2H[K[23;2H[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"writeup.txt" 3L, 72C written]2;Terminal]1;Terminal
+[?1l>[?12l[?25h[?1049ljacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ cat writeup.txt
+Ryan Jackson
+Hobby: drawing
+Favorite Song: Colors by Coheed and Cambria
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git add writeup.txt
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git commit -m "Fa[K[Kadd[K[K[KAdded Favorite SongA[K"
+[question3 2ba7dbb] Added Favorite Song
+ 1 file changed, 1 insertion(+)
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git help
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Forward-port local commits to the updated upstream head
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git merge question3
+Updating 3dfe4d1..2ba7dbb
+Fast-forward
+ writeup.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git branch -d question3
+Deleted branch question3 (was 2ba7dbb).
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ grab[Kdle build
+[0m
+Welcome to Gradle 5.0!
+
+Here are the highlights of this release:
+ - Kotlin DSL 1.0
+ - Task timeouts
+ - Dependency alignment aka BOM support
+ - Interactive `gradle init`
+
+For more details see https://docs.gradle.org/5.0/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/jacksor9/CSCI241/lab-1-TheFlyingGerbil/build.gradle into local compilation cache > Compiling build file '/home/jacksor9/CSCI241/lab-1-TheFlyingGerbil/build.gradle' to cro[m[203D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/jacksor9/CSCI241/lab-1-TheFlyingGerbil/build.gradle into local compilation cache > Compiling build file '/home/jacksor9/CSCI241/lab-1-TheFlyingGerbil/build.gradle' to cro[m[203D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[0K[33D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 21% EXECUTING [1s][m[34D[1B[1m> :jar[m[0K[6D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [2s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 3s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mjacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ gre[K[Kradle run
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mjacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ cd sc[Kr[K[K[K[K[Kls
+build  build.gradle  src  username.txt	writeup.txt
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ cd src/main/java/lab1/Hello.[K[K[K[K[K[K[K
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil/src/main/java/lab1$ ls
+Hello.java
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil/src/main/java/lab1$ vi Hello.java
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;23r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[23;1H"Hello.java" 7L, 131C[>c[27m[23m[m[H[2J[1;1H[38;5;81mpackage[m lab1;
+
+[38;5;121mpublic[m [38;5;121mclass[m Hello{
+    [38;5;121mpublic[m [38;5;121mstatic[m [38;5;121mvoid[m main(String[] args){[5;9HSystem.out.println([95m"Hello World!"[m);
+    }
+}
+[94m~                                                                                                                                                                                                           [9;1H~                                                                                                                                                                                                           [10;1H~                                                                                                                                                                                                           [11;1H~                                                                                                                                                                                                           [12;1H~                                                                                                                                                                                                           [13;1H~                                                                                                                                                                                                           [14;1H~                                                                                                                                                                                                           [15;1H~                                                                                                                                                                                                           [16;1H~                                                                                                                                                                                                           [17;1H~                                                                                                                                                                                                           [18;1H~                                                                                                                                                                                                           [19;1H~                                                                                                                                                                                                           [20;1H~                                                                                                                                                                                                           [21;1H~                                                                                                                                                                                                           [22;1H~                                                                                                                                                                                                           [m[23;187H1,1[11CAll"Hello.java" 7L, 131C[165C   [11C   [1;1H]2;Hello.java (~/CSCI241/lab-1-TheFlyingGerbil/src/main/java/lab1) - VIM]1;Hello.java[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[23;1H[1m-- INSERT --[m[23;14H[K[23;187H1,1[11CAll[1;1H[?12l[?25h[?25l[23;187H2[2;1H[?12l[?25h[?25l[23;187H3[3;1H[?12l[?25h[?25l[23;187H4[4;1H[?12l[?25h[?25l[23;187H5[5;1H[?12l[?25h[?25l[23;189H2[5;2H[?12l[?25h[?25l[23;189H3[5;3H[?12l[?25h[?25l[23;189H4[5;4H[?12l[?25h[?25l[23;189H5[5;5H[?12l[?25h[?25l[23;189H6[5;6H[?12l[?25h[?25l[23;189H7[5;7H[?12l[?25h[?25l[23;189H8[5;8H[?12l[?25h[?25l[23;189H9[5;9H[?12l[?25h[?25l[23;189H10[5;10H[?12l[?25h[?25l[23;190H1[5;11H[?12l[?25h[?25l[23;190H2[5;12H[?12l[?25h[?25l[23;190H3[5;13H[?12l[?25h[?25l[23;190H4[5;14H[?12l[?25h[?25l[23;190H5[5;15H[?12l[?25h[?25l[23;190H6[5;16H[?12l[?25h[?25l[23;190H7[5;17H[?12l[?25h[?25l[23;190H8[5;18H[?12l[?25h[?25l[23;190H9[5;19H[?12l[?25h[?25l[23;189H20[5;20H[?12l[?25h[?25l[23;190H1[5;21H[?12l[?25h[?25l[23;190H2[5;22H[?12l[?25h[?25l[23;190H3[5;23H[?12l[?25h[?25l[23;190H4[5;24H[?12l[?25h[?25l[23;190H5[5;25H[?12l[?25h[?25l[23;190H6[5;26H[?12l[?25h[?25ln[46m([14C)[m[23;190H7[5;27H[?12l[?25h[?25l[23;190H8[5;28H[?12l[?25h[?25l([14C)[23;190H9[5;29H[?12l[?25h[?25l[23;189H30[5;30H[?12l[?25h[?25l[23;190H1[5;31H[?12l[?25h[?25l[23;190H2[5;32H[?12l[?25h[?25l[23;190H3[5;33H[?12l[?25h[?25l[23;190H4[5;34H[?12l[?25h[?25l[23;190H5[5;35H[?12l[?25h[?25l[23;190H6[5;36H[?12l[?25h[?25l[23;190H7[5;37H[?12l[?25h[?25l[23;190H8[5;38H[?12l[?25h[?25l[23;190H9[5;39H[?12l[?25h[?25l[23;189H40[5;40H[?12l[?25h[?25l[23;190H1[5;41H[?12l[?25h[?25l[5;27H[46m([14C)[m[23;190H2[5;42H[?12l[?25h[?25l[95m)[m[95m[46m;[m[5;43H[K[5;41H[95m[46m)[m[95m;[m[23;190H1]2;Hello.java + (~/CSCI241/lab-1-TheFlyingGerbil/src/main/java/lab1) - VIM]1;Hello.java[5;41H[?12l[?25h[?25l[95m)[m[95m[46m;[m[5;42H[K[5;40H[95m[46m)[m[95m;[m[23;190H0[5;40H[?12l[?25h[?25l[95m)[m[95m[46m;[m[5;41H[K[5;39H[95m[46m)[m[95m;[m[23;189H39[5;39H[?12l[?25h[?25l[95m)[m[95m[46m;[m[5;40H[K[5;38H[95m[46m)[m[95m;[m[23;190H8[5;38H[?12l[?25h[?25l[95m)[m[95m[46m;[m[5;39H[K[5;37H[95m[46m)[m[95m;[m[23;190H7[5;37H[?12l[?25h[?25l[95m)[m[95m[46m;[m[5;38H[K[5;36H[95m[46m)[m[95m;[m[23;190H6[5;36H[?12l[?25h[?25l[95m)[m[95m[46m;[m[5;37H[K[5;35H[95m[46m)[m[95m;[m[23;190H5[5;35H[?12l[?25h[?25l[95m)[m[95m[46m;[m[5;36H[K[5;34H[95m[46m)[m[95m;[m[23;190H4[5;34H[?12l[?25h[?25l[95m)[m[95m[46m;[m[5;35H[K[5;33H[95m[46m)[m[95m;[m[23;190H3[5;33H[?12l[?25h[?25l[95m)[m[95m[46m;[m[5;34H[K[5;32H[95m[46m)[m[95m;[m[23;190H2[5;32H[?12l[?25h[?25l[95m)[m[95m[46m;[m[5;33H[K[5;31H[95m[46m)[m[95m;[m[23;190H1[5;31H[?12l[?25h[?25l[95m)[m[95m[46m;[m[5;32H[K[5;30H[95m[46m)[m[95m;[m[23;190H0[5;30H[?12l[?25h[?25l[95m)[m[95m[46m;[m[5;31H[K[5;29H[95m[46m)[m[95m;[m[23;189H29[5;29H[?12l[?25h[?25l)[46m;[m[5;30H[K[5;28H[46m)[m;[23;190H8[5;28H[?12l[?25h[?25l[46ma[m);a[46m)[m[23;190H9[5;29H[?12l[?25h[?25l[46mr[m);r[46m)[m[23;189H30[5;30H[?12l[?25h[?25l[46mg[m);g[46m)[m[23;190H1[5;31H[?12l[?25h[?25l[46ms[m);s[46m)[m[23;190H2[5;32H[?12l[?25h[?25l[46m[[m);[[46m)[m[23;190H3[5;33H[?12l[?25h[?25l[95m[46m0[m);[95m0[m[46m)[m[23;190H4[5;34H[?12l[?25h[?25l[46m][m);][46m)[m[23;190H5[5;35H[?12l[?25h[23;1H[K[5;34H[?25l[5;27H(args[46m[[1C][m)[23;187H5,34[10CAll[5;34H[?12l[?25h[?25l[23;187H[K[23;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Hello.java" 7L, 124C written]2;Terminal]1;Terminal
+[?1l>[?12l[?25h[?1049ljacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil/src/main/java/lab1$ vi Hello.javals[Kcd src/main/java/lab1ls[Kgradle run --args="[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgradle buildit branch -d question3[11Pradle build[Kls[Kgradle build[K[K[K[K[K[K[K[K[K[K[K[Kgit branch -d question3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvi Hello.java
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;23r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[23;1H"Hello.java" 7L, 124C[>c[1;1H[35mpackage[m lab1;
+
+[32mpublic[m [32mclass[m Hello{
+    [32mpublic[m [32mstatic[m [32mvoid[m main(String[] args){[5;9HSystem.out.println(args[[31m0[m]);
+    }
+}
+[94m~                                                                                                                                                                                                           [9;1H~                                                                                                                                                                                                           [10;1H~                                                                                                                                                                                                           [11;1H~                                                                                                                                                                                                           [12;1H~                                                                                                                                                                                                           [13;1H~                                                                                                                                                                                                           [14;1H~                                                                                                                                                                                                           [15;1H~                                                                                                                                                                                                           [16;1H~                                                                                                                                                                                                           [17;1H~                                                                                                                                                                                                           [18;1H~                                                                                                                                                                                                           [19;1H~                                                                                                                                                                                                           [20;1H~                                                                                                                                                                                                           [21;1H~                                                                                                                                                                                                           [22;1H~                                                                                                                                                                                                           [m[23;187H1,1[11CAll]2;Hello.java (~/CSCI241/lab-1-TheFlyingGerbil/src/main/java/lab1) - VIM]1;Hello.java[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1H[38;5;81mpackage[m lab1;
+
+[38;5;121mpublic[m [38;5;121mclass[m Hello{
+    [38;5;121mpublic[m [38;5;121mstatic[m [38;5;121mvoid[m main(String[] args){[5;9HSystem.out.println(args[[95m0[m]);
+    }
+}
+[94m~                                                                                                                                                                                                           [9;1H~                                                                                                                                                                                                           [10;1H~                                                                                                                                                                                                           [11;1H~                                                                                                                                                                                                           [12;1H~                                                                                                                                                                                                           [13;1H~                                                                                                                                                                                                           [14;1H~                                                                                                                                                                                                           [15;1H~                                                                                                                                                                                                           [16;1H~                                                                                                                                                                                                           [17;1H~                                                                                                                                                                                                           [18;1H~                                                                                                                                                                                                           [19;1H~                                                                                                                                                                                                           [20;1H~                                                                                                                                                                                                           [21;1H~                                                                                                                                                                                                           [22;1H~                                                                                                                                                                                                           [m[23;187H1,1[11CAll"Hello.java" 7L, 124C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[23;187H2,0-1[2;1H[?12l[?25h[?25l[23;187H3,1  [3;1H[?12l[?25h[?25l[23;187H4[4;1H[?12l[?25h[?25l[23;187H5[5;1H[?12l[?25h[?25l[23;189H2[5;2H[?12l[?25h[?25l[23;189H3[5;3H[?12l[?25h[?25l[23;189H4[5;4H[?12l[?25h[?25l[23;189H5[5;5H[?12l[?25h[?25l[23;189H6[5;6H[?12l[?25h[?25l[23;1H[1m-- INSERT --[m[23;14H[K[23;187H5,6[11CAll[5;6H[?12l[?25h[?25l[23;189H7[5;7H[?12l[?25h[?25l[23;189H8[5;8H[?12l[?25h[?25l[23;189H9[5;9H[?12l[?25h[?25l[23;189H10[5;10H[?12l[?25h[?25l[23;190H1[5;11H[?12l[?25h[?25l[23;190H2[5;12H[?12l[?25h[?25l[23;190H3[5;13H[?12l[?25h[?25l[23;190H4[5;14H[?12l[?25h[?25l[23;190H5[5;15H[?12l[?25h[?25l[23;190H6[5;16H[?12l[?25h[?25l[23;190H7[5;17H[?12l[?25h[?25l[23;190H8[5;18H[?12l[?25h[?25l[23;190H9[5;19H[?12l[?25h[?25l[23;189H20[5;20H[?12l[?25h[?25l[23;190H1[5;21H[?12l[?25h[?25l[23;190H2[5;22H[?12l[?25h[?25l[23;190H3[5;23H[?12l[?25h[?25l[23;190H4[5;24H[?12l[?25h[?25l[23;190H5[5;25H[?12l[?25h[?25l[23;190H6[5;26H[?12l[?25h[?25ln[46m([7C)[m[23;190H7[5;27H[?12l[?25h[?25l[23;190H8[5;28H[?12l[?25h[?25l[95m"args[0[m[95m[46m][m[95m);[m[5;27H([7C[95m][m[23;190H9]2;Hello.java + (~/CSCI241/lab-1-TheFlyingGerbil/src/main/java/lab1) - VIM]1;Hello.java[5;29H[?12l[?25h[?25l[95mHargs[0]);[m[23;189H30[5;30H[?12l[?25h[?25l[95meargs[0]);[m[23;190H1[5;31H[?12l[?25h[?25l[95mlargs[0]);[m[23;190H2[5;32H[?12l[?25h[?25l[95mlargs[0]);[m[23;190H3[5;33H[?12l[?25h[?25l[95moargs[0]);[m[23;190H4[5;34H[?12l[?25h[?25l[95m args[0]);[m[23;190H5[5;35H[?12l[?25h[?25l[23;190H6[5;36H[?12l[?25h[?25l[23;190H7[5;37H[?12l[?25h[?25l[23;190H8[5;38H[?12l[?25h[?25l[1C[95m[46m[[1C][m[23;190H9[5;39H[?12l[?25h[?25l[23;189H40[5;40H[?12l[?25h[?25l[23;190H1[5;41H[?12l[?25h[?25l[5;27H[46m([m[11C[95m[0][m[95m[46m)[m[23;190H2[5;42H[?12l[?25h[?25l[23;190H3[5;43H[?12l[?25h[?25l[23;190H2[5;42H[?12l[?25h[?25l[95m[46m![m[95m);![m[95m[46m)[m[23;190H3[5;43H[?12l[?25h[?25l[95m[46m"[m);[95m"[m[46m)[m[23;190H4[5;44H[?12l[?25h[?25l[23;190H5[5;45H[?12l[?25h[?25l[4;43H[46m{[m[5;27H([16C)
+    [46m}[m[23;187H6,6 [6;6H[?12l[?25h[?25l[3;19H[46m{[m[4;43H{[6;5H}
+[46m}[m[23;187H7,2[7;2H[?12l[?25h[?25l[3;19H{[4;43H[46m{[6;5H}[m
+}[23;187H6,6[6;6H[?12l[?25h[?25l[4;43H{[5;27H[46m([16C)[m
+    }[23;187H5,45[5;45H[?12l[?25h[?25l[23;190H4[5;44H[?12l[?25h[?25l[5;27H([16C)[23;190H3[5;43H[?12l[?25h[?25l[5;27H[46m([16C)[m[23;190H4[5;44H[?12l[?25h[?25l[95m)[m[95m[46m;[m[5;45H[K[5;43H[95m[46m)[m[95m;[m[23;190H3[5;43H[?12l[?25h[?25l[5;27H([11C[95m[46m[[1C][m[1C[95m)[m[23;190H2[5;42H[?12l[?25h[?25l[23;190H1[5;41H[?12l[?25h[?25l[23;190H0[5;40H[?12l[?25h[?25l[23;189H39[5;39H[?12l[?25h[?25l[95m[0][m[23;190H8[5;38H[?12l[?25h[?25l[23;190H7[5;37H[?12l[?25h[?25l[23;190H6[5;36H[?12l[?25h[?25l[23;190H5[5;35H[?12l[?25h[?25l[23;190H4[5;34H[?12l[?25h[?25l[95m"[m args[[95m0[m]!);[23;190H5[5;35H[?12l[?25h[?25l  args[[95m0[m]!);[23;190H6[5;36H[?12l[?25h[?25l+ args[[95m0[m]!);[23;190H7[5;37H[?12l[?25h[?25l  args[[95m0[m]!);[23;190H8[5;38H[?12l[?25h[?25l[23;190H9[5;39H[?12l[?25h[?25l[23;189H40[5;40H[?12l[?25h[?25l[23;190H1[5;41H[?12l[?25h[?25l[23;190H2[5;42H[?12l[?25h[?25ls[46m[[1C][m[23;190H3[5;43H[?12l[?25h[?25l[23;190H4[5;44H[?12l[?25h[?25l[23;190H5[5;45H[?12l[?25h[?25l[23;190H6[5;46H[?12l[?25h[?25l+!);[5;43H[[1C][23;190H7[5;47H[?12l[?25h[?25l !);[23;190H8[5;48H[?12l[?25h[?25l[23;190H7[5;47H[?12l[?25h[?25l[46m[[1C][m[23;190H6[5;46H[?12l[?25h[?25l + !);[5;43H[[1C][23;190H7[5;47H[?12l[?25h[?25l[23;190H8[5;48H[?12l[?25h[?25l[23;190H9[5;49H[?12l[?25h[?25l[5;27H[46m([22C)[m[23;189H50[5;50H[?12l[?25h[?25l[5;27H([22C)[23;189H49[5;49H[?12l[?25h[?25l[95m"!);[m[23;189H50[5;50H[?12l[?25h[?25l[5;27H[46m([m[23C[95m[46m)[m[23;190H1[5;51H[?12l[?25h[?25l[95m[46m"[m);[95m"[m[46m)[m[23;190H2[5;52H[?12l[?25h[23;1H[K[5;51H[?25l[5;27H([24C)[23;187H5,51[10CAll[5;51H[?12l[?25h[?25l[23;187H[K[23;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"Hello.java" 7L, 141C written]2;Terminal]1;Terminal
+[?1l>[?12l[?25h[?1049ljacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil/src/main/java/lab1$ vi Hello.javals[Kcd src/main/java/lab1ls[K[Kgit branch -d question3[4Pmerge[C[C[C[C[C[C[C[C[C[Ccheckout master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgradle run --ars[Kgs="241'[K"
+[0m
+[1A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Task 'run' not found in root project 'lab1'.
+
+* Try:
+Run [1mgradle tasks[m to get a list of available tasks. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mjacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil/src/main/java/lab1$ CD.\\\[K[K[K[K[K[Kcd .
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil/src/main/java/lab1$ cd ..
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil/src/main/java$ cd ..
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil/src/main$ cd ..
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil/src$ cd ..
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ cd ..[Kgradle run --args="241"[10Pvi Hello.javagradle run --args="241"
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello241!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mjacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git add writeup.txt
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git commit -m "gradle intro:[K"[1P[1@G[C[C[C[C[C[C[C[C[C[C[C[C[C
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+	[31mmodified:   src/main/java/lab1/Hello.java[m
+
+Untracked files:
+	[31m.gradle/[m
+	[31mbuild/[m
+	[31msrc/main/java/lab1/.gradle/[m
+	[31musername.txt[m
+
+no changes added to commit
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git commit -m "Gradle intro"[9Padd writeup.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1Ptxt[1Pxt[1Pt[Khe[K[KHello.java
+fatal: pathspec 'Hello.java' did not match any files
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git add Hello.javasHello.javarHello.javacHello.java/Hello.javamHello.javaaHello.javaiHello.javanHello.java/Hello.javajHello.javaaHello.javaaHello.java[1PHello.javavHello.javaaHello.java/Hello.javalHello.javaaHello.javabHello.java1Hello.java/Hello.java[C[C[C[C[C[C[C[C[C[C
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git add src/main/java/lab1/Hello.java[19PHello.javacommit -m "Gradle intro"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"H"e"l"l"o" "n"o"w" "p"r"i"n"t"s" "c"o"m"m"a"n"d" "l"i"n"e" "a"r"g"s"[1P"[C
+[master e3508da] Hello now prints command line arg
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': TheFlyingGerbil
+Password for 'https://TheFlyingGerbil@github.com': 
+Counting objects: 10, done.
+Delta compression using up to 8 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 848 bytes | 0 bytes/s, done.
+Total 10 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/CSCI241Spring2019/lab-1-TheFlyingGerbil.git
+   3dfe4d1..e3508da  master -> master
+jacksor9@CF165-10:~/CSCI241/lab-1-TheFlyingGerbil$ exit
+exit
+
+Script done on Thu 11 Apr 2019 10:51:31 AM PDT
